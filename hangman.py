@@ -57,4 +57,4 @@ def hangman(word: str):
 
 
 if __name__ == "__main__":
-    hangman("people")
+    hangman(random_word)
