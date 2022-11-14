@@ -7,7 +7,7 @@ words = ["people", "dog", "cat", "mobile", "truck", "nurse", "coffee", "treasure
          "earth", "rainbow"]
 
 # choose a random word from the list
-random_word = random.choice(words)
+random_word = random.choice(words).lower()
 
 
 # function of the hangman game
